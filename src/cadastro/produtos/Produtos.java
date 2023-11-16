@@ -11,7 +11,6 @@ public class Produtos implements Estoque {
     protected int qtd;
     protected double valor;
     protected double valorTotal;
-    protected String dadosProd;
 
     public Produtos() {
     }
@@ -29,7 +28,7 @@ public class Produtos implements Estoque {
 
     @Override
     public String toString() {
-        return dadosProd.toString();
+        return listProds.toString();
     }
 
     public double getValorTotal() {

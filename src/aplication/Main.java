@@ -7,12 +7,20 @@ import cadastro.produtos.Infantil;
 import cadastro.produtos.Masculino;
 import vendas.Vendas;
 
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.util.ArrayList;
 import java.util.InputMismatchException;
+import java.util.List;
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        List<String> list = new ArrayList<>();
+        String fileOutput = "C:\\temp\\registro.csv";
+
 
         Vendedores vendedor1 = new Vendedores();
         Clientes cliente1 = new Clientes();
@@ -52,5 +60,15 @@ public class Main {
         }
         // Exibe informações da venda
         System.out.println(vendas);
+        list.add(String.valueOf(vendas));
+        try (BufferedWriter buffer1 = new BufferedWriter(new FileWriter(fileOutput))) {
+
+            for (int i = 0; i < list.size(); i++) {
+                buffer1.write(list.get(i));
+                buffer1.newLine();
+            }
+        } catch (IOException err) {
+            System.out.println(err.getMessage());
+        }
     }
 }

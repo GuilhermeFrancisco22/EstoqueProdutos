@@ -5,21 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="481b4716-4f24-4ce5-bf81-3fe35664cf8f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/cadastro/pessoas/Clientes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cadastro/pessoas/Pessoas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cadastro/pessoas/Vendedores.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cadastro/produtos/Estoque.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cadastro/produtos/Feminino.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cadastro/produtos/Infantil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cadastro/produtos/Masculino.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cadastro/produtos/Produtos.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/aplication/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/aplication/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cadastro/Clientes.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cadastro/Pessoas.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cadastro/Produtos.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cadastro/Vendedores.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vendas/Vendas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vendas/Vendas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cadastro/produtos/Produtos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cadastro/produtos/Produtos.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
